@@ -1,0 +1,56 @@
+.c1{
+    width: 500px; 
+    height: 400px;
+    border: 5px solid red;
+    border-radius: 50px;
+    background-image: linear-gradient(to top,rgb(25, 21, 95),violet,green) ;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 200px;
+    display: inline-block;
+    opacity: 90%;
+    padding: 30px;
+    transform: rotate(-10deg);
+   
+   
+}
+    
+    
+
+body{
+    background-image:url(3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: login;
+    animation-duration: 20s;
+   animation-direction:alternate;
+   animation-delay: 2s;
+   animation-iteration-count: infinite;
+   background-image: cover;
+
+    
+
+}
+@keyframes login{
+    0%{background-image: url(cs.png); background-repeat: no-repeat;background-size: cover;opacity: 90%;}
+    30%{background-image: url(bg1.png); background-repeat: no-repeat;background-size: cover;opacity: 90%;}
+    60%{background-image: url(2.png);background-repeat: no-repeat;background-size: cover; opacity: 90%;}
+    100%{background-image: url(3.png); background-repeat: no-repeat;background-size: cover;opacity: 90%;}
+}
+    
+div:hover h1{ 
+    font-style: italic,bold;
+    text-transform: capitalize;
+
+} 
+input:hover {
+         background-color:cyan;
+
+}
+a:hover{
+    background-color:red;
+}
+b:hover{
+     text-transform: uppercase;
+}

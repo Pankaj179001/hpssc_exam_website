@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      div{
+        border: 2px solid black;
+        /* height: 200px; */
+        background-color:aqua ;
+        text-align: center;
+      }
+      label{
+        font-style: bold;
+      }
+        img{
+          margin-left: 10%;
+          margin-right: 8%;
+          
+        }
+        fore{
+          margin-right: 20%;
+         
+        }
+        body{
+       background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          background-image:linear-gradient(to top left,green,blue,violet,cyan,yellow) ;
+            }
+       input{
+              /* block-size: 30px; */
+              border-radius: 10px;
+            }
+            input:hover{
+              background-color: aqua;
+              
+            }
+            .c1{
+              border-color: red;
+              color: white;
+              width: 80px;
+              height: 40px;
+              background-color: black;
+            }
+      </style>
+      <!-- <link type="text/css"rel="stylesheet" href="suf.css"> -->
+</head>
+<body>
+  <div><p><img src="hpssc.png" width="130" height="60"><h1>SIGN UP FORM</h1>
+ <marquee direction="right" behavior="alternate"scrollamount="5" hspace="500px"><font color="red"> <h5>all fields are mandatory to fill</h5></font></marquee></div><br><br>
+  <form action="loginform.html" method="post" align="center">
+       
+       <label>Name</label>  <input type="text"  name="name" required placeholder="Enter Your Name"><br><br>
+        <label>Email</label><input type="email" name="em" required placeholder="Enter Your Email-id"><br><br>
+       <label>Gender</label> <input type="radio" name="gen" value="Male" required><label>Male</label>
+                           <input type="radio" name="gen"  value="Female"><label>Female</label>
+    <br><br>
+
+     <label>Mobile</label><input type="mob" name="mb" required placeholder="Enter Your Mobile number" maxlength="10"><br><br>
+     <label>Password</label>  <input type="password" name="psw" required placeholder="Enter Your Password"maxlength="6"><br><br>
+     <label>Hobbies</label><input type="checkbox" value="cricket" name="cr"><label>Cricket</label> 
+                           <input type="checkbox" value="car racing" name="cr"><label>car Racing</label> <br><br></font>
+
+                            <label>State</label>  <select name="st" required>
+                           <option disabled selected value="">Select your State</option>
+                           <option name="hr">Haryana</option>
+                           <option>Punjab</option>
+                           <option>Himachal</option>
+                           </select> <br><br>
+                            
+                           </select>
+                           <label>Address</label> <textarea rows="4" cols="20" name="ads" required placeholder=" your permanent address"></textarea> <br><br> 
+                           <label>Select Image</label> <input type="file" name="img" required> <br><br>
+    <!-- <details>
+        <font color="red">   <summary>click for more</summary></font>
+        <p>
+            <font color="blue"> write your info correctly</font>
+        </p>
+    </details> -->
+     <input type="submit" value="sign up" class="c1">
+     <input type="reset" value="reset" class="c1"><br><br>
+   <textarea name="reviews"placeholder="reviews"></textarea> 
+  
+  </form>
+</body>
+</html>
